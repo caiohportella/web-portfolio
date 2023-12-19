@@ -11,28 +11,28 @@
 
         .tecnology-card
             @include mixins.center
+            align-items: center
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
             border-radius: variables.$card-border-radius
             width: 45%
 
+            // .tecnology-icon
+            //     width: 25%
+            //     height: 25%
+
             h3
                 color: variables.$text-color
                 font-size: 1.5rem
                 margin-bottom: 1rem
-                @include mixins.center
-                justify-content: start
-                gap: 1rem
-
-                &:after
-                    @include mixins.gradient-border
+                // @include mixins.center
+                // justify-content: start
+                // gap: 1rem
             
             svg
-                width: 3rem
-                height: 3rem
-                fill: variables.$text-color
-                margin-bottom: 1rem
+               font-size: 10rem
+               
             
         #sql
             svg

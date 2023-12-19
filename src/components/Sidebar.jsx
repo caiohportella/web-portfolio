@@ -2,6 +2,7 @@ import ProfilePic from '../assets/images/pp.jpg'
 
 import "../styles/components/sidebar.sass";
 import Contact from './Contact';
+import Experience from './Experience';
 import SocialNetworks from './SocialNetworks';
 
 const Sidebar = () => {
@@ -11,7 +12,8 @@ const Sidebar = () => {
         <p className="title">Web Developer</p>
         <SocialNetworks />
         <Contact />
-        <a href="" className="btn">Download CV</a>
+        <Experience />
+        <a href="src\assets\CV.pdf" className="btn">Download CV</a>
     </aside>
   )
 }

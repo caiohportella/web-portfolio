@@ -15,42 +15,50 @@ const tecnologies = [
     {
         id: "sql",
         name: "MySQL",
-        icon: <DiMysql />,
+        icon: <DiMysql className="tecnology-icon" />,
+        experience: "Utilizado majoritariamente em projetos acadêmicos, como o MyCash."
     },
     {
         id: "react",
         name: "React",
-        icon: <DiReact />,
+        icon: <DiReact className="tecnology-icon" />,
+        experience: "Utilizado em projetos pessoais, como o meu portfólio e alta bagagem de cursos."
     },
     {
         id: "js",
         name: "JavaScript",
-        icon: <DiJsBadge />,
+        icon: <DiJsBadge className="tecnology-icon" />,
+        experience: "Utilizado em apoio ao desenvolvimento web, como HTML e ReactJS."
     },
     {
         id: "dart",
         name: "Dart",
-        icon: <DiDart />,
+        icon: <DiDart className="tecnology-icon" />,
+        experience: "Utilizado em apoio ao Flutter, onde fiz vários aplicativos de estudo."
     },
     {
         id: "git",
         name: "Git",
-        icon: <DiGit />,
+        icon: <DiGit className="tecnology-icon" />,
+        experience: "Utilizado rotineiramente, sendo essencial para um bom desenvolvimento de projetos."
     },
     {
         id: "go",
         name: "Go",
-        icon: <DiGo />,
+        icon: <DiGo className="tecnology-icon" />,
+        experience: "Utilizado em uma POC do projeto de Message Oriented Middleware."
     },
     {
         id: "java",
         name: "Java",
-        icon: <DiJava />,
+        icon: <DiJava className="tecnology-icon" />,
+        experience: "Utilizado amplamente durante a graduação, tendo apoiado vários projetos durante todo o curso."
     },
     {
         id: "firebase",
         name: "Firebase",
-        icon: <DiFirebase />,
+        icon: <DiFirebase className="tecnology-icon" />,
+        experience: "Utilizado em apoio ao Flutter, no qual ainda busco me aprofundar."
     }
 ];
 
@@ -65,7 +73,7 @@ const Tecnologies = () => {
                         <div className='tecnology-info'>
                             <h3>{tecnology.name}</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aperiam ipsa? Error nam voluptate, beatae ipsam dignissimos suscipit quod ea sunt nisi reprehenderit, nulla minus voluptas inventore reiciendis tempora minima!
+                                {tecnology.experience}
                             </p>
                         </div>
                     </div>
