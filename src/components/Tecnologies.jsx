@@ -1,7 +1,7 @@
 import '../styles/components/tecnologies.sass'
 
 import {
-    DiMySql,
+    DiMysql,
     DiReact,
     DiJsBadge,
     DiDart,
@@ -15,7 +15,7 @@ const tecnologies = [
     {
         id: "sql",
         name: "MySQL",
-        icon: <DiMySql />,
+        icon: <DiMysql />,
     },
     {
         id: "react",
