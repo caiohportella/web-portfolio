@@ -13,7 +13,7 @@ const Sidebar = () => {
         <SocialNetworks />
         <Contact />
         <Experience />
-        <a href="src\assets\CV.pdf" className="btn">Download CV</a>
+        <a href="/CV.pdf" className="btn" target='_blank' rel='noreferrer'>Download CV</a>
     </aside>
   )
 }
